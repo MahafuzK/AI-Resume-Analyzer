@@ -1,0 +1,20 @@
+Backend Developer Intern
+
+We are looking for a Backend Developer Intern to join our engineering team.
+
+Responsibilities:
+- Develop REST APIs using FastAPI.
+- Write clean and efficient Python code.
+- Design and optimize SQL database queries.
+- Use Git for version control.
+- Debug and maintain backend applications.
+- Collaborate with frontend developers.
+
+Required Skills:
+- Python
+- FastAPI
+- SQL
+- Git
+- Docker
+- Linux
+- REST API

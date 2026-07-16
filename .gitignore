@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+backend/venv/
+
+# Uploaded resumes
+backend/uploads/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+
+# Logs
+*.log

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ResumeIQ - AI Resume Analyzer</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <div class="logo">
+                <h1>ResumeIQ</h1>
+            </div>
+
+            <div class="tagline">
+                <p>AI Resume Analyzer & ATS Checker</p>
+            </div>
+
+        </header>
+
+        <main>
+
+            <section class="hero">
+
+                <h2>AI Resume Analyzer & ATS Checker</h2>
+
+                <p>
+                    Upload your resume, paste a job description, and receive
+                    AI-powered ATS scoring, skill analysis, resume improvements,
+                    and interview preparation.
+                </p>
+
+            </section>
+
+            <section class="upload-section">
+
+                <h3>Upload Your Resume</h3>
+
+                <input
+                    type="file"
+                    id="resume"
+                    accept=".pdf,.doc,.docx">
+
+                <p id="file-name">No file selected</p>
+
+            </section>
+
+            <section class="job-description">
+
+                <h3>Paste Job Description</h3>
+
+                <textarea
+                    id="job-description"
+                    rows="10"
+                    placeholder="Paste the complete job description here..."></textarea>
+
+            </section>
+
+            <section class="analyze-section">
+
+                <button type="button" id="analyze-btn">
+                    Analyze Resume
+                </button>
+
+            </section>
+
+            <section id="results" class="results-section">
+
+                <h2>Analysis Result</h2>
+
+                <div id="result-content">
+                    <p>Upload a resume and click Analyze.</p>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
